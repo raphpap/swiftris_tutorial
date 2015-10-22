@@ -24,6 +24,8 @@
 		B7E6CB531BCF45E10055A811 /* whitebg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7E6CB4D1BCF45E10055A811 /* whitebg@2x.png */; };
 		B7E6CB551BD0AD450055A811 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E6CB541BD0AD450055A811 /* Array2D.swift */; };
 		B7E6CB571BD741410055A811 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E6CB561BD741410055A811 /* Block.swift */; };
+		B7E6CB591BD89DB60055A811 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E6CB581BD89DB60055A811 /* Shape.swift */; };
+		B7E6CB5B1BD8A6690055A811 /* SquareShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E6CB5A1BD8A6690055A811 /* SquareShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		B7E6CB4D1BCF45E10055A811 /* whitebg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whitebg@2x.png"; sourceTree = "<group>"; };
 		B7E6CB541BD0AD450055A811 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 		B7E6CB561BD741410055A811 /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		B7E6CB581BD89DB60055A811 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		B7E6CB5A1BD8A6690055A811 /* SquareShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				B7E6CB241BCF44200055A811 /* GameViewController.swift */,
 				B7E6CB541BD0AD450055A811 /* Array2D.swift */,
 				B7E6CB561BD741410055A811 /* Block.swift */,
+				B7E6CB581BD89DB60055A811 /* Shape.swift */,
+				B7E6CB5A1BD8A6690055A811 /* SquareShape.swift */,
 				B7E6CB261BCF44200055A811 /* Main.storyboard */,
 				B7E6CB291BCF44200055A811 /* Images.xcassets */,
 				B7E6CB2B1BCF44200055A811 /* LaunchScreen.xib */,
@@ -254,6 +260,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7E6CB231BCF44200055A811 /* GameScene.swift in Sources */,
+				B7E6CB591BD89DB60055A811 /* Shape.swift in Sources */,
+				B7E6CB5B1BD8A6690055A811 /* SquareShape.swift in Sources */,
 				B7E6CB551BD0AD450055A811 /* Array2D.swift in Sources */,
 				B7E6CB571BD741410055A811 /* Block.swift in Sources */,
 				B7E6CB251BCF44200055A811 /* GameViewController.swift in Sources */,
@@ -453,6 +461,7 @@
 				B7E6CB3E1BCF44200055A811 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7E6CB3F1BCF44200055A811 /* Build configuration list for PBXNativeTarget "Test GameTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +470,7 @@
 				B7E6CB411BCF44200055A811 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
